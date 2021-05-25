@@ -1,0 +1,25 @@
+table {
+    margin: 30px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+tr {
+    border-top: 1px solid rgb(149, 255, 149);
+    border-bottom: 1px solid rgb(149, 255, 149);
+}
+
+tr:first-child {
+    font-weight: bold;
+    color: white;
+    background-color: green;
+}
+
+tbody tr:nth-child(odd) {
+    color: black;
+    font-weight: normal;
+    background-color: rgb(137, 238, 137);
+}
